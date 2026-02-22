@@ -14,7 +14,7 @@ const Header = ({ username }: HeaderProps) => {
   };
 
   return (
-    <header className="w-full border-b bg-white">
+    <header className="w-full shadow-md bg-white">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3">
         
         {/* Left: Logo + Name */}
@@ -35,14 +35,14 @@ const Header = ({ username }: HeaderProps) => {
         <nav className="flex items-center gap-6">
           <Link
             href="/"
-            className="text-gray-600 hover:text-black transition"
+            className="text-gray-600 hover:text-black transition font-bold"
           >
             Home
           </Link>
 
           <Link
             href="/createtask"
-            className="text-gray-600 hover:text-black transition"
+            className="text-gray-600 hover:text-black transition font-bold"
           >
             Create Task
           </Link>
